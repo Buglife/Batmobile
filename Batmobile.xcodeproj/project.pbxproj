@@ -229,20 +229,14 @@
 				TargetAttributes = {
 					B77E41E21D251D4D004F1572 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 4VEMS22FM4;
-						DevelopmentTeamName = "David Schukin";
 						ProvisioningStyle = Automatic;
 					};
 					B77E41FB1D251ED0004F1572 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 4VEMS22FM4;
-						DevelopmentTeamName = "David Schukin";
 						ProvisioningStyle = Automatic;
 					};
 					B77E42041D251ED0004F1572 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 4VEMS22FM4;
-						DevelopmentTeamName = "David Schukin";
 						ProvisioningStyle = Automatic;
 					};
 				};

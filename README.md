@@ -9,8 +9,9 @@ Batmobile is a sample project that implements ride requests using the `Intents` 
 
 ## Usage
 
-1. Build & run the app on your device. Confirm when prompted w/ the Siri permissions dialog.
-2. Once you have authorized the app to use Siri, there are two ways to request a ride:
+1. Open the project in Xcode 8.0. For each target (Batmobile, BatmobileIntentsExtension, BatmobileIntentsExtensionUI), select your Team under the General > Signing panel.
+2. Build & run the app on your device. Confirm when prompted w/ the Siri permissions dialog.
+3. Once you have authorized the app to use Siri, there are two ways to request a ride:
 	* Ask Siri "Request a ride in the Batmobile"
 	* Open the Maps app, get directions to a location, and select the **Ride** tab
 
