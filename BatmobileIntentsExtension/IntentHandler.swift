@@ -54,7 +54,7 @@ class IntentHandler: INExtension, INRidesharingDomainHandling {
         let response = INListRideOptionsIntentResponse(code: .success, userActivity: nil)
         
         let pickupDate = Date(timeIntervalSinceNow: 240)
-        let rideOption = INRideOption(name: "Batmobile-X", estimatedPickupDate: pickupDate)
+        let rideOption = INRideOption(name: "Batmobile LINE", estimatedPickupDate: pickupDate)
         
         rideOption.priceRange = INPriceRange(minimumPrice: 42.0, currencyCode: "USD")
         rideOption.disclaimerMessage = "This ride is cray cray."
