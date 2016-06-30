@@ -18,6 +18,7 @@
 		B77E420E1D251ED0004F1572 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77E420C1D251ED0004F1572 /* MainInterface.storyboard */; };
 		B77E42121D251ED0004F1572 /* BatmobileIntentsExtensionUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B77E42051D251ED0004F1572 /* BatmobileIntentsExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B77E42151D251ED0004F1572 /* BatmobileIntentsExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B77E41FC1D251ED0004F1572 /* BatmobileIntentsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B77E421E1D25A6BC004F1572 /* watman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B77E421D1D25A6BC004F1572 /* watman.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		B77E420A1D251ED0004F1572 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		B77E420D1D251ED0004F1572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		B77E420F1D251ED0004F1572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77E421D1D25A6BC004F1572 /* watman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = watman.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 		B77E42091D251ED0004F1572 /* BatmobileIntentsExtensionUI */ = {
 			isa = PBXGroup;
 			children = (
+				B77E421D1D25A6BC004F1572 /* watman.jpg */,
 				B77E420A1D251ED0004F1572 /* IntentViewController.swift */,
 				B77E420C1D251ED0004F1572 /* MainInterface.storyboard */,
 				B77E420F1D251ED0004F1572 /* Info.plist */,
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B77E420E1D251ED0004F1572 /* MainInterface.storyboard in Resources */,
+				B77E421E1D25A6BC004F1572 /* watman.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +545,7 @@
 				B77E41F71D251D4D004F1572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B77E42161D251ED0004F1572 /* Build configuration list for PBXNativeTarget "BatmobileIntentsExtensionUI" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +554,7 @@
 				B77E42181D251ED0004F1572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B77E42191D251ED0004F1572 /* Build configuration list for PBXNativeTarget "BatmobileIntentsExtension" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +563,7 @@
 				B77E421B1D251ED0004F1572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

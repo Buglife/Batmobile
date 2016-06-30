@@ -28,14 +28,11 @@ import IntentsUI
 
 class IntentViewController: UIViewController, INUIHostedViewControlling {
     
+    @IBOutlet weak var watmanImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     // MARK: - INUIHostedViewControlling
