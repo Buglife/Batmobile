@@ -70,6 +70,7 @@
 		B77E420D1D251ED0004F1572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		B77E420F1D251ED0004F1572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B77E421D1D25A6BC004F1572 /* watman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = watman.jpg; sourceTree = "<group>"; };
+		B7BFCBA21D3746C300011183 /* Batmobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Batmobile.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +123,7 @@
 		B77E41E51D251D4D004F1572 /* Batmobile */ = {
 			isa = PBXGroup;
 			children = (
+				B7BFCBA21D3746C300011183 /* Batmobile.entitlements */,
 				B77E41E61D251D4D004F1572 /* AppDelegate.swift */,
 				B77E41E81D251D4D004F1572 /* ViewController.swift */,
 				B77E41EA1D251D4D004F1572 /* Main.storyboard */,
@@ -451,9 +453,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Batmobile/Batmobile.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Batmobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.Batmobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -464,9 +468,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Batmobile/Batmobile.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Batmobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.Batmobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -477,7 +483,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = BatmobileIntentsExtensionUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.Batmobile.BatmobileIntentsExtensionUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.BatmobileIntentsExtensionUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -489,7 +495,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = BatmobileIntentsExtensionUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.Batmobile.BatmobileIntentsExtensionUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.BatmobileIntentsExtensionUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -501,7 +507,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = BatmobileIntentsExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.Batmobile.BatmobileIntentsExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.BatmobileIntentsExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -513,7 +519,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = BatmobileIntentsExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.Batmobile.BatmobileIntentsExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.BatmobileIntentsExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
